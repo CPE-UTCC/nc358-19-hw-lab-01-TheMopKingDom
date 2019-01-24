@@ -1,3 +1,20 @@
 Assignment #1 (due 25/01/2019)
 1. Shell ใน Linux มีอะไรบ้าง จงอธิบายมาอย่างน้อย 3 ชนิด
+คือตัวแปลงคำสั่งที่ช่วยให้ผู้ใช้งานสามารถเข้าถึงระบบ operating system ที่รวมไปถึงอินเตอร์เฟสที่คอยแสดงผลการดำเนินงานใด ๆ อีกด้วย
+โดยใน Unix จะมีอยู่ 2 แบบใหญ่คือ
+หากคุณกำลังใช้งาน  Bourne-type shell อยู่จะสามารถสังเกตุได้จากตัวอักษร $ ที่จะขึ้นนำหน้าคำสั่งใด ๆ เสมอ
+C shell − หากคุณกำลังใช้งาน  C-type shell, อยู่จะสามารถสังเกตุได้จากตัวอักษร % ที่จะขึ้นนำหน้าคำสั่งใด ๆ เสมอ
+โดย Bourne Shell และ C shell ยังสามรถแบ่งแยกย่อยลงไปได้อีกดังนี้
+Bourne-type shell
+-Bourne shell (sh)
+-Korn shell (ksh)
+-Bourne Again shell (bash)
+-POSIX shell (sh)
+C-type shell
+-C shell (csh)
+-TENEX/TOPS C shell (tcsh)
 2. การเปลี่ยนกลับมายัง Home Directory ทำได้อย่างไร จงแสดงคำสั่งที่ใช้พร้อมคำอธิบาย
+มีอยู่ทั้งสิ้น 3 วิธีคือ
+-พิมพ์คำสั่ง cd ใน terminal จะเป็นการกลับสู่ Home Directory ทันที
+-ใช้ absolute path คือการพิมพ์ที่อยู่ของ Home Directory แบบเต็ม ๆ ลงไปเช่น cd home/[ชื่อ user name ปัจุบันที่ใช้งานอยู่]
+-ใช้ relative path คือการพิมพ์ที่อยู่ของ Home Directory แบบย่อลงไปเช่น cd /home/ เป็นต้น
